@@ -5,20 +5,5 @@
       "source": "/:path*",
       "destination": "/index.html"
     }
-  ],
-  "routes": [
-    {
-      "src": "/api/:path*",
-      "dest": "/api/:path*"
-    },
-    {
-      "src": "/assets/:path*",
-      "dest": "/assets/:path*"
-    },
-    {
-      "src": "/:path*",
-      "dest": "/",
-      "status": 200
-    }
   ]
 }
